@@ -80,7 +80,7 @@ function saveOrder() {
 
     }
     orderlist.push(order)
-    console.log("Form submitted");
+    console.log("Order placed");
     //console.log(orderlist)
     //document.querySelector("#form").reset();
     document.getElementById("in5").value = order.amount;
